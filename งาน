@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>เที่ยวบ้านดุง อุดรธานี</title>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f8f3;--card:#fff;--text:#1d2b22;--muted:#5d6b61;--accent:#1f7a5a;--accent2:#0f4d3a;--line:#dfe7dc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101a14;--card:#18261d;--text:#e8f0ea;--muted:#9db0a2;--accent:#4cc79a;--accent2:#2a8f6c;--line:#27382d}}
+:root[data-theme="dark"]{--bg:#101a14;--card:#18261d;--text:#e8f0ea;--muted:#9db0a2;--accent:#4cc79a;--accent2:#2a8f6c;--line:#27382d}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Prompt',system-ui,sans-serif;line-height:1.65}
+.hero{background:linear-gradient(160deg,#0f4d3a,#1f7a5a 55%,#7cc9a0);color:#fff;padding:56px 22px 48px;text-align:center}
+.hero h1{margin:0 0 8px;font-size:2rem}
+.hero p{margin:0 auto;max-width:520px;opacity:.95}
+.btn{display:inline-block;margin-top:20px;background:#fff;color:#0f4d3a;padding:10px 22px;border-radius:99px;text-decoration:none;font-weight:600}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;padding:10px 14px;z-index:5}
+nav a{white-space:nowrap;color:var(--text);text-decoration:none;padding:6px 14px;border-radius:99px;font-size:.9rem;border:1px solid var(--line)}
+section{max-width:860px;margin:0 auto;padding:32px 18px}
+h2{color:var(--accent);margin:0 0 14px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.card .pic{height:110px;background:linear-gradient(135deg,var(--accent2),var(--accent));display:flex;align-items:center;justify-content:center;font-size:2.4rem}
+.card .body{padding:14px 16px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.card p{margin:0 0 10px;color:var(--muted);font-size:.92rem}
+.card a{color:var(--accent);font-weight:600;text-decoration:none;font-size:.92rem}
+.note{background:var(--card);border:1px dashed var(--accent);border-radius:12px;padding:12px 16px;color:var(--muted);font-size:.9rem;margin-top:14px}
+ul{padding-left:20px;margin:0}
+footer{text-align:center;color:var(--muted);padding:28px 18px 40px;font-size:.85rem}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>เที่ยวบ้านดุง</h1>
+  <p>อำเภอบ้านดุง จังหวัดอุดรธานี ดินแดนแห่งความเชื่อ ธรรมชาติ และอาหารอีสานรสเด็ด</p>
+  <a class="btn" href="#places">ดูที่เที่ยว</a>
+</header>
+<nav>
+  <a href="#places">ที่เที่ยว</a><a href="#food">ของกิน</a><a href="#stay">ที่พัก</a><a href="#go">การเดินทาง</a>
+</nav>
+
+<section id="places">
+  <h2>สถานที่เที่ยว</h2>
+  <div class="grid">
+    <div class="card"><div class="pic">🐉</div><div class="body">
+      <h3>วังนาคินทร์คำชะโนด</h3>
+      <p>เกาะลอยกลางหนองน้ำ ที่บ้านโนนเมือง ต.บ้านม่วง มีต้นคำชะโนดขึ้นหนาแน่นและบ่อน้ำศักดิ์สิทธิ์ ผู้คนเชื่อว่าเป็นเมืองพญานาค</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=วังนาคินทร์คำชะโนด" target="_blank" rel="noopener">เปิดแผนที่ →</a></div></div>
+    <div class="card"><div class="pic">🛕</div><div class="body">
+      <h3>วัดป่าคำเจริญ</h3>
+      <p>วัดใกล้คำชะโนด เหมาะแวะสักการะและพักใจหลังเที่ยวชมเกาะ</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=วัดป่าคำเจริญ+บ้านดุง" target="_blank" rel="noopener">เปิดแผนที่ →</a></div></div>
+    <div class="card"><div class="pic">📍</div><div class="body">
+      <h3>เพิ่มสถานที่ของคุณ</h3>
+      <p>ใส่ชื่อ คำอธิบาย รูปถ่ายจริง และลิงก์แผนที่ของที่เที่ยวในบ้านดุงที่คุณอยากแนะนำ</p></div></div>
+  </div>
+  <div class="note">ตำนานที่เล่าขานกัน เช่น ตำนานคำชะโนด ตำนานผีจ้างหนัง และตำนานสองสาวยืมฟืม เป็นเรื่องเล่าที่ทำให้ที่นี่มีเสน่ห์ ลองเขียนเป็นบทความแยกได้</div>
+</section>
+
+<section id="food">
+  <h2>ของกิน</h2>
+  <div class="grid">
+    <div class="card"><div class="body">
+      <h3>บ้านอาหารครัวครูบล</h3>
+      <p>อาหารอีสานและร้านส้มตำ ใกล้คำชะโนด</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=บ้านอาหารครัวครูบล+คำชะโนด" target="_blank" rel="noopener">เปิดแผนที่ →</a></div></div>
+    <div class="card"><div class="body">
+      <h3>ร้านอาหารรอบคำชะโนด</h3>
+      <p>มีร้านอาหารอีสานหลายร้านในละแวกเกาะ เช่น ครัวคุณนุช และครัวใบข้าว</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=ร้านอาหาร+คำชะโนด" target="_blank" rel="noopener">ค้นหาในแผนที่ →</a></div></div>
+  </div>
+</section>
+
+<section id="stay">
+  <h2>ที่พัก</h2>
+  <div class="grid">
+    <div class="card"><div class="body">
+      <h3>ดรีมฟอเรส รีสอร์ท คำชะโนด</h3>
+      <p>รีสอร์ทบรรยากาศร่มรื่น ใกล้คำชะโนด</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=ดรีมฟอเรส+รีสอร์ท+คำชะโนด" target="_blank" rel="noopener">เปิดแผนที่ →</a></div></div>
+    <div class="card"><div class="body">
+      <h3>มะลิ มะลิ โฮมสเตย์</h3>
+      <p>โฮมสเตย์ใกล้คำชะโนด ราคาเป็นกันเอง</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=มะลิ+มะลิ+โฮมสเตย์+คำชะโนด" target="_blank" rel="noopener">เปิดแผนที่ →</a></div></div>
+  </div>
+</section>
+
+<section id="go">
+  <h2>การเดินทาง</h2>
+  <ul>
+    <li>จากสนามบินอุดรธานี ใช้เวลาขับรถประมาณ 1 ชั่วโมง 30 นาที ถึงละแวกคำชะโนด</li>
+    <li>แนะนำให้ขับรถส่วนตัวหรือเช่ารถ เพราะสะดวกที่สุด</li>
+    <li>ช่วงเทศกาลและวันหยุดยาว คนมาก ควรไปแต่เช้า</li>
+  </ul>
+  <div class="note">เวลาเปิด-ปิดและกฎระเบียบของแต่ละสถานที่อาจเปลี่ยนได้ ควรเช็กกับสถานที่ก่อนเดินทาง</div>
+</section>
+
+<footer>เว็บต้นแบบ เที่ยวบ้านดุง อุดรธานี<br>ข้อมูลรวบรวมจากแหล่งสาธารณะ โปรดตรวจสอบก่อนเดินทาง</footer>
+</body>
+</html>
